@@ -6,7 +6,7 @@ export const TRADE_PORTFOLIOS = {
   Plumbing: {
     id: "Plumbing",
     icon: Droplet,
-    tabLabel: "🔧 Plumbing Pro",
+    tabLabel: "🔧 Plumbing Money Engine",
     title: "The Ultimate Plumbing Growth Engine",
     description: "Designed specifically for plumbers to capture emergency leaks and standard estimates instantly.",
     previewUrl: "https://example.com/plumbing-demo", // Placeholder for iframe
@@ -19,7 +19,7 @@ export const TRADE_PORTFOLIOS = {
   HVAC: {
     id: "HVAC",
     icon: Wrench,
-    tabLabel: "❄️ HVAC Masters",
+    tabLabel: "❄️ HVAC Revenue System",
     title: "The Ultimate HVAC Growth Engine",
     description: "Engineered to book AC repairs and seasonal tune-ups automatically, 24/7.",
     previewUrl: "https://example.com/hvac-demo",
@@ -32,7 +32,7 @@ export const TRADE_PORTFOLIOS = {
   Roofing: {
     id: "Roofing",
     icon: Home,
-    tabLabel: "🏠 Roofing Shield",
+    tabLabel: "🏠 Roofing Client Magnet",
     title: "The Ultimate Roofing Growth Engine",
     description: "Capture post-storm leads instantly and schedule free roof inspections on autopilot.",
     previewUrl: "https://example.com/roofing-demo",
@@ -45,7 +45,7 @@ export const TRADE_PORTFOLIOS = {
   Electrical: {
     id: "Electrical",
     icon: Zap,
-    tabLabel: "⚡ Electrician Express",
+    tabLabel: "⚡ Electrician Booking Hub",
     title: "The Ultimate Electrical Growth Engine",
     description: "Turn power outage panics into booked emergency calls with zero human intervention.",
     previewUrl: "https://example.com/electrical-demo",

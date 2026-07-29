@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Monitor, Smartphone, Tablet, MessageSquare } from "lucide-react";
+import { X, Monitor, Smartphone, Tablet, MessageSquare, Flame } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface DemoPreviewModalProps {
@@ -90,6 +90,14 @@ export function DemoPreviewModal({ isOpen, onClose, tradeId }: DemoPreviewModalP
               >
                 <X className="w-5 h-5" />
               </button>
+            </div>
+
+            {/* Psychological Warning Banner */}
+            <div className="bg-destructive/10 border-b border-destructive/20 p-3 sm:p-4 text-center">
+              <p className="text-sm sm:text-base font-bold text-destructive flex items-center justify-center gap-2 max-w-3xl mx-auto">
+                <Flame className="w-5 h-5 shrink-0" />
+                <span><strong className="uppercase">Warning:</strong> This isn&apos;t just a pretty layout. This exact engine recovered $14,200 in missed plumbing calls in Houston, TX last month. Test the live chatbot on the bottom right.</span>
+              </p>
             </div>
 
             {/* Preview Container */}
