@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, CheckCircle2, AlertTriangle } from "lucide-react";
+import { X, CheckCircle2, AlertTriangle, Zap } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { DemoPreviewModal } from "@/components/modals/DemoPreviewModal";
