@@ -199,11 +199,11 @@ export function InteractivePortfolio() {
                   </div>
 
                   {/* Aggressive CTAs */}
-                  <div className="flex flex-col sm:flex-row gap-4 w-full">
-                    <Button size="lg" className="flex-1 shadow-[0_0_20px_rgba(255,107,0,0.3)] bg-accent hover:bg-accent/90 text-white font-extrabold text-base" onClick={() => setIsDemoModalOpen(true)}>
+                  <div className="flex flex-col 2xl:flex-row gap-4 w-full">
+                    <Button size="lg" className="w-full 2xl:flex-1 shadow-[0_0_20px_rgba(255,107,0,0.3)] bg-accent hover:bg-accent/90 text-white font-extrabold text-sm sm:text-base px-4 py-4 sm:py-6 h-auto whitespace-normal leading-snug" onClick={() => setIsDemoModalOpen(true)}>
                       Test The $10k/Mo Revenue Engine
                     </Button>
-                    <Button variant="outline" size="lg" className="flex-1 font-bold border-2 text-base bg-slate-900 text-white hover:bg-slate-800 hover:text-white" onClick={() => setIsBookingModalOpen(true)}>
+                    <Button variant="outline" size="lg" className="w-full 2xl:flex-1 font-bold border-2 text-sm sm:text-base bg-slate-900 text-white hover:bg-slate-800 hover:text-white px-4 py-4 sm:py-6 h-auto whitespace-normal leading-snug" onClick={() => setIsBookingModalOpen(true)}>
                       Replace My Leaky Website
                     </Button>
                   </div>
