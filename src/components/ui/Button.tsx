@@ -13,16 +13,16 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         ref={ref}
         className={cn(
-          "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 min-h-[48px]", // Mobile touch target: min-h-[48px]
+          "inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-bold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 min-h-[48px] active:scale-[0.98]",
           {
-            "bg-accent text-accent-foreground shadow hover:bg-accent/90": variant === "default",
-            "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground": variant === "outline",
-            "hover:bg-accent hover:text-accent-foreground": variant === "ghost",
-            "text-primary underline-offset-4 hover:underline": variant === "link",
-            "h-12 px-4 py-2": size === "default",
-            "h-10 rounded-md px-3 text-xs min-h-[40px]": size === "sm",
-            "h-14 rounded-md px-8 min-h-[56px] text-base": size === "lg",
-            "h-12 w-12": size === "icon",
+            "bg-accent text-white shadow-md hover:bg-accent/90 hover:shadow-lg": variant === "default",
+            "border-2 border-slate-800 bg-transparent text-slate-800 dark:border-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800": variant === "outline",
+            "hover:bg-slate-100 text-slate-700 dark:hover:bg-slate-800 dark:text-slate-300": variant === "ghost",
+            "text-accent underline-offset-4 hover:underline": variant === "link",
+            "h-12 px-6 py-2": size === "default",
+            "h-10 rounded-lg px-4 text-xs min-h-[40px]": size === "sm",
+            "h-14 rounded-2xl px-10 min-h-[56px] text-base": size === "lg",
+            "h-12 w-12 rounded-xl": size === "icon",
           },
           className
         )}

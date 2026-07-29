@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, CheckCircle2, AlertTriangle, Zap } from "lucide-react";
+import { CheckCircle2, AlertTriangle, Zap } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { DemoPreviewModal } from "@/components/modals/DemoPreviewModal";
@@ -96,13 +96,18 @@ export function InteractivePortfolio() {
                   animate={{ opacity: 1, rotateY: -10, scale: 1 }}
                   exit={{ opacity: 0, rotateY: -20, scale: 0.9 }}
                   transition={{ duration: 0.5, ease: "easeOut" }}
-                  className="w-[280px] h-[580px] bg-slate-950 rounded-[3rem] p-3 shadow-2xl relative transform-gpu hover:rotate-y-0 transition-transform duration-500 mt-10"
+                  className="w-[280px] h-[580px] bg-slate-950 rounded-[3.5rem] p-3 shadow-2xl relative transform-gpu hover:rotate-y-0 transition-transform duration-500 mt-10 ring-1 ring-slate-800"
                   style={{ transformStyle: "preserve-3d" }}
                 >
-                  <div className="absolute inset-0 border-4 border-slate-700/50 rounded-[3rem] pointer-events-none" />
-                  <div className="absolute top-5 left-1/2 -translate-x-1/2 w-[100px] h-[28px] bg-black rounded-full z-30" />
+                  <div className="absolute inset-0 border-4 border-slate-700/50 rounded-[3.5rem] pointer-events-none" />
+                  
+                  {/* Dynamic Island */}
+                  <div className="absolute top-5 left-1/2 -translate-x-1/2 w-[90px] h-[26px] bg-black rounded-full z-30 shadow-[inset_0_-2px_10px_rgba(255,255,255,0.1)] flex items-center justify-between px-2 py-1">
+                    <div className="w-2.5 h-2.5 rounded-full bg-slate-800/80"></div>
+                    <div className="w-2 h-2 rounded-full bg-green-500/50"></div>
+                  </div>
 
-                  <div className="w-full h-full bg-background rounded-[2.25rem] overflow-hidden relative shadow-[inset_0_0_10px_rgba(0,0,0,0.1)]">
+                  <div className="w-full h-full bg-background rounded-[2.75rem] overflow-hidden relative shadow-[inset_0_0_20px_rgba(0,0,0,0.1)] border border-slate-800/50">
                     
                     <motion.div 
                       className="absolute inset-x-0 top-0 w-full"
