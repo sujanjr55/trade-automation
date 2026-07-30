@@ -9,7 +9,7 @@ export function RoofingPreview() {
   return (
     <div className="min-h-full bg-slate-50 text-slate-900 font-sans pb-20 relative">
       {/* Header */}
-      <nav className="flex items-center justify-between p-4 bg-slate-900 text-white shadow-sm sticky top-0 z-40">
+      <nav className="flex items-center justify-between px-4 pt-10 pb-4 bg-slate-900 text-white shadow-sm sticky top-0 z-40">
         <div className="flex items-center gap-2">
           <Home className="w-5 h-5 text-orange-500" />
           <span className="font-extrabold text-sm tracking-tight">Apex Roofing</span>

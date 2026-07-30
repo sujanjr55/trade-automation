@@ -9,7 +9,7 @@ export function HvacPreview() {
   return (
     <div className="min-h-full bg-slate-50 text-slate-900 font-sans pb-20 relative">
       {/* Header */}
-      <nav className="flex items-center justify-between p-4 bg-white shadow-sm sticky top-0 z-40 border-b border-slate-100">
+      <nav className="flex items-center justify-between px-4 pt-10 pb-4 bg-white shadow-sm sticky top-0 z-40 border-b border-slate-100">
         <div className="flex items-center gap-2">
           <Wind className="w-5 h-5 text-cyan-600" />
           <span className="font-extrabold text-sm tracking-tight text-slate-900">Breeze HVAC</span>

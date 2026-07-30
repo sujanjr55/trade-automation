@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { CheckCircle2, MonitorSmartphone, Target, ArrowRight, Expand } from "lucide-react";
+import { CheckCircle2, MonitorSmartphone, Target, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 // Import Trade Components
@@ -141,12 +141,6 @@ export function InteractivePortfolio() {
                   </AnimatePresence>
                 </div>
 
-                {/* Hover Full-Screen Expansion Overlay */}
-                <div className="absolute inset-0 bg-black/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50 flex items-center justify-center">
-                  <button className="bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white font-bold py-3 px-5 rounded-full shadow-2xl flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
-                    <Expand className="w-4 h-4" /> Tap to Expand Full Screen
-                  </button>
-                </div>
               </div>
             </div>
             

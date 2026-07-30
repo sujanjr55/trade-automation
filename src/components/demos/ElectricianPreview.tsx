@@ -9,7 +9,7 @@ export function ElectricianPreview() {
   return (
     <div className="min-h-full bg-slate-950 text-white font-sans pb-20 relative">
       {/* Header */}
-      <nav className="flex items-center justify-between p-4 bg-slate-900 border-b border-white/10 sticky top-0 z-40">
+      <nav className="flex items-center justify-between px-4 pt-10 pb-4 bg-slate-900 border-b border-white/10 sticky top-0 z-40">
         <div className="flex items-center gap-2">
           <div className="bg-yellow-400 p-1 rounded-sm">
             <Zap className="w-4 h-4 text-slate-900 fill-slate-900" />

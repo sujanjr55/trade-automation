@@ -8,7 +8,7 @@ export function PlumbingPreview() {
   return (
     <div className="min-h-full bg-slate-50 text-slate-900 font-sans pb-20 relative">
       {/* Top Banner */}
-      <div className="bg-red-600 text-white text-[10px] font-bold py-1.5 text-center flex items-center justify-center gap-1 uppercase tracking-wider">
+      <div className="bg-red-600 text-white text-[10px] font-bold pt-10 pb-1.5 text-center flex items-center justify-center gap-1 uppercase tracking-wider">
         <Clock className="w-3 h-3" /> 24/7 Emergency Service Active
       </div>
 
